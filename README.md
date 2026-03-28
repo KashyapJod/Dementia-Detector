@@ -77,6 +77,53 @@ Recommended order:
 
 5. Save outputs to `explain_output/` and review charts/tables.
 
+## Google Colab Instructions
+
+Use these steps to run this project in Google Colab.
+
+1. Open Colab and clone the repository:
+
+```python
+!git clone https://github.com/KashyapJod/Dementia-Detector.git
+%cd Dementia-Detector
+```
+
+2. Install dependencies (CPU runtime):
+
+```python
+!pip install -U pip
+!pip install -r requirements.txt
+```
+
+3. (Optional) If you have GPU runtime enabled in Colab:
+
+```python
+import torch
+print("CUDA available:", torch.cuda.is_available())
+```
+
+4. Place dataset folders and metadata in the project root:
+
+```text
+Dementia-Detector/
+  dementia/
+  nodementia/
+  data/manifest.csv
+  data/splits.json
+```
+
+5. Run fastest training preset:
+
+```python
+!python train.py training=fastest data=fastest wandb.enabled=false
+```
+
+6. Run explainability using the latest checkpoint:
+
+```python
+!python explain.py model_checkpoint=checkpoints/last.ckpt
+```
+
 ## Upload To GitHub
 
 Target repository:
