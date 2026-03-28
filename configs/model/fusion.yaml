@@ -1,0 +1,32 @@
+type: fusion  # [acoustic_only, text_only, fusion]
+
+# Acoustic model (wav2vec2)
+acoustic:
+  model_name: facebook/wav2vec2-base
+  freeze_feature_extractor: true
+  num_frozen_layers: 8
+  dropout: 0.1
+  output_dim: 768
+
+# Text model (SBERT)
+text:
+  model_name: all-MiniLM-L6-v2
+  freeze_embeddings: true
+  pooling: mean
+  output_dim: 384
+
+# Fusion configuration
+fusion:
+  type: late  # [early, late, attention]
+  hidden_dims: [512, 256]
+  dropout: 0.2
+  activation: gelu
+  num_heads: 4  # for attention fusion
+  
+  # Late fusion weights (if using weighted average)
+  acoustic_weight: 0.5
+  text_weight: 0.5
+  
+# Task specific
+num_classes: 2
+class_weights: [1.0, 1.0]  # Will be updated based on data

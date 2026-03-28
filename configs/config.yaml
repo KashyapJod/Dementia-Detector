@@ -1,0 +1,43 @@
+defaults:
+  - _self_
+  - data: default
+  - model: fusion
+  - features: default
+  - training: default
+  - override hydra/hydra_logging: disabled
+  - override hydra/job_logging: disabled
+
+data_dir: C:/Coding/BioPro
+
+data:
+  paths:
+    dementia: ${data_dir}/dementia
+    nodementia: ${data_dir}/nodementia
+    manifest: ${data_dir}/data/manifest.csv
+    splits: ${data_dir}/data/splits.json
+  
+  splits:
+    train_ratio: 0.7
+    val_ratio: 0.15
+    test_ratio: 0.15
+    subject_level: true
+    stratify: true
+    random_state: ${seed}
+
+hydra:
+  run:
+    dir: .
+  sweep:
+    dir: ${data_dir}/multirun/${now:%Y-%m-%d_%H-%M-%S}
+    subdir: ${hydra.job.override_dirname}
+  job:
+    chdir: false
+  verbose: true
+
+seed: 42
+debug: false
+wandb:
+  enabled: false
+  project: dementia-detection
+  entity: null  # Set your wandb username
+  tags: []

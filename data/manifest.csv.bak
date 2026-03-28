@@ -1,0 +1,230 @@
+path,subject,duration,label
+/home/karnito/Coding/Demdect/dementia/dementia/Estelle Getty/EstelleGetty_15.wav,Estelle Getty,9.0204375,1
+/home/karnito/Coding/Demdect/dementia/dementia/Casey Kasem/CaseyKasem_5.wav,Casey Kasem,11.005351473922902,1
+/home/karnito/Coding/Demdect/dementia/dementia/Casey Kasem/CaseyKasem_15.wav,Casey Kasem,50.009251700680274,1
+/home/karnito/Coding/Demdect/dementia/dementia/Peter Max/PeterMax_15.wav,Peter Max,20.01560090702948,1
+/home/karnito/Coding/Demdect/dementia/dementia/Peter Max/PeterMax_10.wav,Peter Max,35.01587301587302,1
+/home/karnito/Coding/Demdect/dementia/dementia/Stan Bowles/StanBowles_5.wav,Stan Bowles,26.008163265306123,1
+/home/karnito/Coding/Demdect/dementia/dementia/Ben Bradlee/BenBradlee_5.wav,Ben Bradlee,34.00190476190476,1
+/home/karnito/Coding/Demdect/dementia/dementia/Ben Bradlee/BenBradlee_15.wav,Ben Bradlee,60.00780045351474,1
+/home/karnito/Coding/Demdect/dementia/dementia/Abe Burrows/AbeBurrows_5.wav,Abe Burrows,71.01968253968253,1
+/home/karnito/Coding/Demdect/dementia/dementia/Don Lane/DonLane_0.wav,Don Lane,35.01578231292517,1
+/home/karnito/Coding/Demdect/dementia/dementia/Lerone Bennett Jr/LeroneBennettJr_10.wav,Lerone Bennett Jr,92.00988662131519,1
+/home/karnito/Coding/Demdect/dementia/dementia/Leon Redbone/leonredbone_15.wav,Leon Redbone,48.0,1
+/home/karnito/Coding/Demdect/dementia/dementia/Ian McCaskill/ianmccaskill_15.wav,Ian McCaskill,32.0,1
+/home/karnito/Coding/Demdect/dementia/dementia/Ray Dolby/RayDolby_0.wav,Ray Dolby,64.00834467120181,1
+/home/karnito/Coding/Demdect/dementia/dementia/Ray Dolby/RayDolby_10.wav,Ray Dolby,90.00834467120181,1
+/home/karnito/Coding/Demdect/dementia/dementia/Ronald Reagan/RonaldReagan_5.wav,Ronald Reagan,90.01614512471656,1
+/home/karnito/Coding/Demdect/dementia/dementia/Ronald Reagan/RonaldReagan_10.wav,Ronald Reagan,90.0087074829932,1
+/home/karnito/Coding/Demdect/dementia/dementia/Sparky Anderson/SparkyAnderson_0.wav,Sparky Anderson,54.00390022675737,1
+/home/karnito/Coding/Demdect/dementia/dementia/Unita Blackwell/UnitaBlackwell_15.wav,Unita Blackwell,90.00054421768708,1
+/home/karnito/Coding/Demdect/dementia/dementia/Ralph Klein/ralphklein_5_2.wav,Ralph Klein,33.0,1
+/home/karnito/Coding/Demdect/dementia/dementia/Ralph Klein/ralphklein_5_1.wav,Ralph Klein,46.0,1
+/home/karnito/Coding/Demdect/dementia/dementia/Robert Anderson/RobertAnderson_10.wav,Robert Anderson,90.00054421768708,1
+/home/karnito/Coding/Demdect/dementia/dementia/Tony Parkes/TonyParkes_10.wav,Tony Parkes,48.01886621315193,1
+/home/karnito/Coding/Demdect/dementia/dementia/Tony Parkes/TonyParkes_5.wav,Tony Parkes,33.01106575963719,1
+/home/karnito/Coding/Demdect/dementia/dementia/George Robb/georgerobb_10.wav,George Robb,22.0,1
+/home/karnito/Coding/Demdect/dementia/dementia/Jack Webster/JackWebster_5.wav,Jack Webster,20.001541950113378,1
+/home/karnito/Coding/Demdect/dementia/dementia/Jack Webster/JackWebster_10.wav,Jack Webster,15.007437641723357,1
+/home/karnito/Coding/Demdect/dementia/dementia/Jimmy Fratianno/JimmyFratianno_0.wav,Jimmy Fratianno,100.01768707482994,1
+/home/karnito/Coding/Demdect/dementia/dementia/Jeanne Little/JeanneLittle_10.wav,Jeanne Little,48.01024943310657,1
+/home/karnito/Coding/Demdect/dementia/dementia/Terry Pratchett/TerryPratchett_5.wav,Terry Pratchett,64.0184126984127,1
+/home/karnito/Coding/Demdect/dementia/dementia/Terry Pratchett/TerryPratchett_0.wav,Terry Pratchett,80.00888888888889,1
+/home/karnito/Coding/Demdect/dementia/dementia/Trevor Peacock/TrevorPeacock_5.wav,Trevor Peacock,34.015691609977324,1
+/home/karnito/Coding/Demdect/dementia/dementia/Jesse Helms/jessehelms_5_2.wav,Jesse Helms,8.5,1
+/home/karnito/Coding/Demdect/dementia/dementia/Jesse Helms/jessehelms_5_1.wav,Jesse Helms,38.0,1
+/home/karnito/Coding/Demdect/dementia/dementia/Jesse Helms/jessehelms_0.wav,Jesse Helms,90.0,1
+/home/karnito/Coding/Demdect/dementia/dementia/Ernie Sigley/ErnieSigley_15.wav,Ernie Sigley,49.010340136054424,1
+/home/karnito/Coding/Demdect/dementia/dementia/Woody Durham/woodydurham_0_2.wav,Woody Durham,90.0,1
+/home/karnito/Coding/Demdect/dementia/dementia/Teresa Gorman/TeresaGorman_10.wav,Teresa Gorman,16.02285714285714,1
+/home/karnito/Coding/Demdect/dementia/dementia/Ross Mac Donald/RossMacDonald_10.wav,Ross Mac Donald,94.02829931972789,1
+/home/karnito/Coding/Demdect/dementia/dementia/Jonathan Miller/JonathanMiller_5.wav,Jonathan Miller,90.00054421768708,1
+/home/karnito/Coding/Demdect/dementia/dementia/Ronan O_Rahilly/ronano_rahilly_15_1.wav,Ronan O_Rahilly,88.0,1
+/home/karnito/Coding/Demdect/dementia/dementia/Ronan O_Rahilly/ronano_rahilly_15_2.wav,Ronan O_Rahilly,24.0,1
+/home/karnito/Coding/Demdect/dementia/dementia/Charles Bronson/CharlesBronson_10.wav,Charles Bronson,36.01487528344671,1
+/home/karnito/Coding/Demdect/dementia/dementia/Charles Bronson/CharlesBronson_15.wav,Charles Bronson,22.002539682539684,1
+/home/karnito/Coding/Demdect/dementia/dementia/Bill Buckner/BillBuckner_15.wav,Bill Buckner,41.00643990929705,1
+/home/karnito/Coding/Demdect/dementia/dementia/Bill Buckner/BillBuckner_10.wav,Bill Buckner,38.00126984126984,1
+/home/karnito/Coding/Demdect/dementia/dementia/Bill Buckner/BillBuckner_5.wav,Bill Buckner,29.017777777777777,1
+/home/karnito/Coding/Demdect/dementia/dementia/Peter Reveen/peterreveen_15.wav,Peter Reveen,40.0,1
+/home/karnito/Coding/Demdect/dementia/dementia/Pat Pariseau/patpariseau_10_2.wav,Pat Pariseau,34.0,1
+/home/karnito/Coding/Demdect/dementia/dementia/Pat Pariseau/patpariseau_10_1.wav,Pat Pariseau,90.0,1
+/home/karnito/Coding/Demdect/dementia/dementia/Stella Stevens/StellaStevens_15.wav,Stella Stevens,31.000725623582767,1
+/home/karnito/Coding/Demdect/dementia/dementia/Joe Conley/JoeConley_0.wav,Joe Conley,80.00208616780046,1
+/home/karnito/Coding/Demdect/dementia/dementia/Robin Williams/RobinWilliams_0.wav,Robin Williams,86.00671201814059,1
+/home/karnito/Coding/Demdect/dementia/dementia/Iris Murdoch/IrisMurdoch_5.wav,Iris Murdoch,41.02204081632653,1
+/home/karnito/Coding/Demdect/dementia/dementia/Iris Murdoch/IrisMurdoch_10.wav,Iris Murdoch,58.01777777777778,1
+/home/karnito/Coding/Demdect/dementia/dementia/Tony Bennett/TonyBennett_0.wav,Tony Bennett,27.00798185941043,1
+/home/karnito/Coding/Demdect/dementia/dementia/Tony Bennett/TonyBennett_15.wav,Tony Bennett,86.00380952380952,1
+/home/karnito/Coding/Demdect/dementia/dementia/Thomas Dorsey/thomasdorsey_0.wav,Thomas Dorsey,18.0,1
+/home/karnito/Coding/Demdect/dementia/dementia/Alan Ramsey/alanramsey_10.wav,Alan Ramsey,55.0,1
+/home/karnito/Coding/Demdect/dementia/dementia/Ted Turner/TedTurner_0.wav,Ted Turner,16.017414965986394,1
+/home/karnito/Coding/Demdect/dementia/dementia/Ted Turner/TedTurner_5.wav,Ted Turner,37.00517006802721,1
+/home/karnito/Coding/Demdect/dementia/dementia/Jim Neidhart/JimNeidhart_0.wav,Jim Neidhart,25.00498866213152,1
+/home/karnito/Coding/Demdect/dementia/dementia/Jim Neidhart/JimNeidhart_15.wav,Jim Neidhart,40.011428571428574,1
+/home/karnito/Coding/Demdect/dementia/dementia/Jim Neidhart/JimNeidhart_10.wav,Jim Neidhart,17.015691609977324,1
+/home/karnito/Coding/Demdect/dementia/dementia/Evelyn Keyes/EvelynKeyes_0.wav,Evelyn Keyes,30.016507936507935,1
+/home/karnito/Coding/Demdect/dementia/dementia/Evelyn Keyes/EvelynKeyes_10.wav,Evelyn Keyes,63.01777777777778,1
+/home/karnito/Coding/Demdect/dementia/dementia/David Milch/DavidMilch_15.wav,David Milch,90.00444444444445,1
+/home/karnito/Coding/Demdect/dementia/dementia/David Milch/DavidMilch_10.wav,David Milch,90.00072562358277,1
+/home/karnito/Coding/Demdect/dementia/dementia/Vampiro/Vampiro_5.wav,Vampiro,39.01315192743764,1
+/home/karnito/Coding/Demdect/dementia/dementia/Vampiro/Vampiro_0.wav,Vampiro,100.00090702947846,1
+/home/karnito/Coding/Demdect/dementia/dementia/Omar Sharif/OmarSharif_0.wav,Omar Sharif,14.007891156462586,1
+/home/karnito/Coding/Demdect/dementia/dementia/Omar Sharif/OmarSharif_10.wav,Omar Sharif,79.01278911564626,1
+/home/karnito/Coding/Demdect/dementia/dementia/Charmian Carr/CharmianCarr_5.wav,Charmian Carr,46.00290249433107,1
+/home/karnito/Coding/Demdect/dementia/dementia/Charmian Carr/CharmianCarr_15.wav,Charmian Carr,110.00126984126985,1
+/home/karnito/Coding/Demdect/dementia/dementia/Ian Holm/IanHolm_2.wav,Ian Holm,90.0,1
+/home/karnito/Coding/Demdect/dementia/dementia/Dennis Moore/DennisMoore_5.wav,Dennis Moore,90.0162358276644,1
+/home/karnito/Coding/Demdect/dementia/dementia/Jack Hanna/JackHanna_10.wav,Jack Hanna,60.01151927437642,1
+/home/karnito/Coding/Demdect/dementia/dementia/Jack Hanna/JackHanna_15.wav,Jack Hanna,26.01424036281179,1
+/home/karnito/Coding/Demdect/dementia/dementia/Barry Cohen/BarryCohen_5.wav,Barry Cohen,53.02267573696145,1
+/home/karnito/Coding/Demdect/dementia/dementia/Greg Fingers Taylor/GregFingersTaylor_10.wav,Greg Fingers Taylor,90.00235827664399,1
+/home/karnito/Coding/Demdect/dementia/dementia/Richard Gwyn/RichardGwyn_0.wav,Richard Gwyn,43.00208616780046,1
+/home/karnito/Coding/Demdect/dementia/dementia/Richard Gwyn/RichardGwyn_5.wav,Richard Gwyn,162.00371882086168,1
+/home/karnito/Coding/Demdect/dementia/dementia/Andrew Sachs/andrewsachs_15.wav,Andrew Sachs,90.0,1
+/home/karnito/Coding/Demdect/dementia/dementia/Andrew Sachs/andrewsachs_10.wav,Andrew Sachs,77.0,1
+/home/karnito/Coding/Demdect/dementia/dementia/Tim Conway/TimConway_5.wav,Tim Conway,43.0225850340136,1
+/home/karnito/Coding/Demdect/dementia/dementia/Tim Conway/TimConway_10.wav,Tim Conway,90.00054421768708,1
+/home/karnito/Coding/Demdect/dementia/dementia/George Klein/georgeklein_5_3.wav,George Klein,16.0,1
+/home/karnito/Coding/Demdect/dementia/dementia/George Klein/georgeklein_5_2.wav,George Klein,63.0,1
+/home/karnito/Coding/Demdect/dementia/dementia/George Klein/georgeklein_5_1.wav,George Klein,13.0,1
+/home/karnito/Coding/Demdect/dementia/dementia/Viv Nicholson/vivnicholson_5.wav,Viv Nicholson,90.0,1
+/home/karnito/Coding/Demdect/dementia/dementia/Emile Griffith/emilegriffith_5.wav,Emile Griffith,10.0,1
+/home/karnito/Coding/Demdect/dementia/dementia/Annette Michelson/annettemichelson_15.wav,Annette Michelson,90.0,1
+/home/karnito/Coding/Demdect/dementia/dementia/Jimmy Calderwood/JimmyCalderwood_5.wav,Jimmy Calderwood,14.014512471655328,1
+/home/karnito/Coding/Demdect/dementia/dementia/Gale Sayers/galesayers_5_1.wav,Gale Sayers,44.0,1
+/home/karnito/Coding/Demdect/dementia/dementia/Gale Sayers/galesayers_5_2.wav,Gale Sayers,53.0,1
+/home/karnito/Coding/Demdect/dementia/dementia/Gale Sayers/galesayers_0.wav,Gale Sayers,83.0,1
+/home/karnito/Coding/Demdect/dementia/dementia/John Mackey/johnmackey_15_2.wav,John Mackey,11.0,1
+/home/karnito/Coding/Demdect/dementia/dementia/John Mackey/johnmackey_15_1.wav,John Mackey,57.0,1
+/home/karnito/Coding/Demdect/dementia/dementia/Donald Sterling/DonaldSterling_5.wav,Donald Sterling,58.02022675736961,1
+/home/karnito/Coding/Demdect/dementia/dementia/Otis Chandler/OtisChandler_5.wav,Otis Chandler,48.00943310657596,1
+/home/karnito/Coding/Demdect/dementia/dementia/Peter Falk/PeterFalk_15.wav,Peter Falk,26.000362811791383,1
+/home/karnito/Coding/Demdect/dementia/dementia/Peter Falk/PeterFalk_10.wav,Peter Falk,21.015873015873016,1
+/home/karnito/Coding/Demdect/dementia/dementia/Paul Hornung/paulhornung_0.wav,Paul Hornung,81.0,1
+/home/karnito/Coding/Demdect/dementia/dementia/Paul Hornung/paulhornung_10.wav,Paul Hornung,90.0,1
+/home/karnito/Coding/Demdect/dementia/dementia/Jessejackson/Jessejackson_0.wav,Jessejackson,42.022403628117914,1
+/home/karnito/Coding/Demdect/dementia/dementia/B B King/bbking_0.wav,B B King,9.0,1
+/home/karnito/Coding/Demdect/dementia/dementia/B B King/bbking_15.wav,B B King,78.0,1
+/home/karnito/Coding/Demdect/dementia/dementia/B B King/bbking_10.wav,B B King,90.0,1
+/home/karnito/Coding/Demdect/dementia/dementia/James Stewart/JamesStewart_5.wav,James Stewart,47.01804988662131,1
+/home/karnito/Coding/Demdect/dementia/dementia/Terry Jones/terryjones_5.wav,Terry Jones,44.0,1
+/home/karnito/Coding/Demdect/dementia/dementia/Pauline Phillips/PaulinePhillips_10.wav,Pauline Phillips,90.00054421768708,1
+/home/karnito/Coding/Demdect/dementia/dementia/Aileen Hernandez/aileenhernandez_5_2.wav,Aileen Hernandez,90.0,1
+/home/karnito/Coding/Demdect/dementia/dementia/Aileen Hernandez/aileenhernandez_0.wav,Aileen Hernandez,47.0,1
+/home/karnito/Coding/Demdect/dementia/dementia/Aileen Hernandez/aileenhernandez_5_1.wav,Aileen Hernandez,38.0,1
+/home/karnito/Coding/Demdect/dementia/dementia/Maurice Hinchey/mauricehinchey_0_2.wav,Maurice Hinchey,16.0,1
+/home/karnito/Coding/Demdect/dementia/dementia/Maurice Hinchey/mauricehinchey_0_1.wav,Maurice Hinchey,90.0,1
+/home/karnito/Coding/Demdect/dementia/dementia/Maurice Hinchey/mauricehinchey_5.wav,Maurice Hinchey,89.0,1
+/home/karnito/Coding/Demdect/dementia/dementia/Ray Galton/RayGalton_5.wav,Ray Galton,71.01170068027211,1
+/home/karnito/Coding/Demdect/dementia/dementia/Dan Ingram/daningram_15.wav,Dan Ingram,46.0,1
+/home/karnito/Coding/Demdect/dementia/dementia/Jim McLean/jimmclean_10.wav,Jim McLean,90.0,1
+/home/karnito/Coding/Demdect/dementia/dementia/Antony Flew/antonyflew_5_2.wav,Antony Flew,26.0,1
+/home/karnito/Coding/Demdect/dementia/dementia/Antony Flew/antonyflew_10.wav,Antony Flew,90.0,1
+/home/karnito/Coding/Demdect/dementia/dementia/Antony Flew/antonyflew_5_1.wav,Antony Flew,73.0,1
+/home/karnito/Coding/Demdect/dementia/dementia/Steve Lawrence/SteveLawrence_15.wav,Steve Lawrence,102.00090702947846,1
+/home/karnito/Coding/Demdect/dementia/dementia/Maureen Forrester/maureenforrester_5.wav,Maureen Forrester,58.0,1
+/home/karnito/Coding/Demdect/dementia/dementia/David Prowse/DavidProwse_0.wav,David Prowse,45.00263038548753,1
+/home/karnito/Coding/Demdect/dementia/dementia/David Prowse/DavidProwse_10.wav,David Prowse,90.00843537414966,1
+/home/karnito/Coding/Demdect/dementia/dementia/David Prowse/DavidProwse_5.wav,David Prowse,57.00063492063492,1
+/home/karnito/Coding/Demdect/dementia/dementia/Bobby Womack/BobbyWomack_0.wav,Bobby Womack,38.005714285714284,1
+/home/karnito/Coding/Demdect/dementia/dementia/Allan Burns/AllanBurns_5.wav,Allan Burns,90.00054421768708,1
+/home/karnito/Coding/Demdect/dementia/dementia/Charles K Kao/CharlesKKao_0.wav,Charles K Kao,70.00834467120181,1
+/home/karnito/Coding/Demdect/nodementia/nodementia/Terry Gilliam/TerryGilliam_3.wav,Terry Gilliam,90.0,0
+/home/karnito/Coding/Demdect/nodementia/nodementia/William Shatner/WilliamShatner_3.wav,William Shatner,90.0,0
+/home/karnito/Coding/Demdect/nodementia/nodementia/William Shatner/WilliamShatner_2.wav,William Shatner,38.0,0
+/home/karnito/Coding/Demdect/nodementia/nodementia/Robert Vaughn/RobertVaughn_1.wav,Robert Vaughn,83.0,0
+/home/karnito/Coding/Demdect/nodementia/nodementia/Max von Sydow/MaxvonSydow_1.wav,Max von Sydow,42.0,0
+/home/karnito/Coding/Demdect/nodementia/nodementia/Max von Sydow/MaxvonSydow_3.wav,Max von Sydow,90.0,0
+/home/karnito/Coding/Demdect/nodementia/nodementia/James Earl Jones/james earl jones_1.wav,James Earl Jones,90.0,0
+/home/karnito/Coding/Demdect/nodementia/nodementia/Ralph Lauren/RalphLauren_3.wav,Ralph Lauren,90.0,0
+/home/karnito/Coding/Demdect/nodementia/nodementia/Paul McCartney/PaulMcCartney_1.wav,Paul McCartney,25.0,0
+/home/karnito/Coding/Demdect/nodementia/nodementia/Paul McCartney/PaulMcCartney_3.wav,Paul McCartney,89.8,0
+/home/karnito/Coding/Demdect/nodementia/nodementia/Paul McCartney/PaulMcCartney_2.wav,Paul McCartney,90.0,0
+/home/karnito/Coding/Demdect/nodementia/nodementia/Charlie Watts/CharlieWatts_1.wav,Charlie Watts,84.0,0
+/home/karnito/Coding/Demdect/nodementia/nodementia/Jimmy Carter/Jimmy carter_3.wav,Jimmy Carter,70.0,0
+/home/karnito/Coding/Demdect/nodementia/nodementia/Rupert Murdoch/RupertMurdoch_2.wav,Rupert Murdoch,28.0,0
+/home/karnito/Coding/Demdect/nodementia/nodementia/Rupert Murdoch/RupertMurdoch_1.wav,Rupert Murdoch,78.0,0
+/home/karnito/Coding/Demdect/nodementia/nodementia/Rupert Murdoch/RupertMurdoch_3.wav,Rupert Murdoch,90.0,0
+/home/karnito/Coding/Demdect/nodementia/nodementia/Prince Philip/Prince Philip_1.wav,Prince Philip,42.0,0
+/home/karnito/Coding/Demdect/nodementia/nodementia/Prince Philip/Prince Philip_3.wav,Prince Philip,90.0,0
+/home/karnito/Coding/Demdect/nodementia/nodementia/Prince Philip/Prince Philip_2.wav,Prince Philip,70.0,0
+/home/karnito/Coding/Demdect/nodementia/nodementia/Michael Dukakis/MichaelDukakis_1.wav,Michael Dukakis,46.0,0
+/home/karnito/Coding/Demdect/nodementia/nodementia/Michael Dukakis/MichaelDukakis_3.wav,Michael Dukakis,89.0,0
+/home/karnito/Coding/Demdect/nodementia/nodementia/Michael Gambon/MichaelGambon_2.wav,Michael Gambon,47.0,0
+/home/karnito/Coding/Demdect/nodementia/nodementia/Michael Gambon/MichaelGambon_3.wav,Michael Gambon,67.0,0
+/home/karnito/Coding/Demdect/nodementia/nodementia/James Caan/JamesCaan_2.wav,James Caan,33.0,0
+/home/karnito/Coding/Demdect/nodementia/nodementia/James Brolin/JamesBrolin_3.wav,James Brolin,15.0,0
+/home/karnito/Coding/Demdect/nodementia/nodementia/James Brolin/JamesBrolin_1.wav,James Brolin,51.0,0
+/home/karnito/Coding/Demdect/nodementia/nodementia/James Brolin/JamesBrolin_2.wav,James Brolin,13.0,0
+/home/karnito/Coding/Demdect/nodementia/nodementia/Christopher Plummer/christopher plummer_2.wav,Christopher Plummer,46.0,0
+/home/karnito/Coding/Demdect/nodementia/nodementia/Christopher Plummer/christopher plummer_1.wav,Christopher Plummer,49.0,0
+/home/karnito/Coding/Demdect/nodementia/nodementia/Christopher Plummer/christopher plummer_3.wav,Christopher Plummer,55.0,0
+/home/karnito/Coding/Demdect/nodementia/nodementia/Philip Glass/PhilipGlass_2.wav,Philip Glass,29.0,0
+/home/karnito/Coding/Demdect/nodementia/nodementia/Philip Glass/PhilipGlass_3.wav,Philip Glass,90.0,0
+/home/karnito/Coding/Demdect/nodementia/nodementia/Peter Fonda/PeterFonda_1.wav,Peter Fonda,12.0,0
+/home/karnito/Coding/Demdect/nodementia/nodementia/Peter Fonda/PeterFonda_2.wav,Peter Fonda,31.8,0
+/home/karnito/Coding/Demdect/nodementia/nodementia/Peter Fonda/PeterFonda_3.wav,Peter Fonda,55.0,0
+/home/karnito/Coding/Demdect/nodementia/nodementia/Robert De Niro/RobertDeNiro_3.wav,Robert De Niro,22.0,0
+/home/karnito/Coding/Demdect/nodementia/nodementia/Robert De Niro/RobertDeNiro_2.wav,Robert De Niro,68.0,0
+/home/karnito/Coding/Demdect/nodementia/nodementia/Robert De Niro/RobertDeNiro_1.wav,Robert De Niro,90.0,0
+/home/karnito/Coding/Demdect/nodementia/nodementia/Jerry Lewis/JerryLewis3.wav,Jerry Lewis,15.0,0
+/home/karnito/Coding/Demdect/nodementia/nodementia/Jerry Lewis/JerryLewis2.wav,Jerry Lewis,90.0,0
+/home/karnito/Coding/Demdect/nodementia/nodementia/Jerry Lewis/JerryLewis1.wav,Jerry Lewis,79.0,0
+/home/karnito/Coding/Demdect/nodementia/nodementia/Michael Cimino/MichaelCimino_2.wav,Michael Cimino,90.0,0
+/home/karnito/Coding/Demdect/nodementia/nodementia/Dionne Warwick/DionneWarwick_1.wav,Dionne Warwick,82.0,0
+/home/karnito/Coding/Demdect/nodementia/nodementia/Dionne Warwick/DionneWarwick_3.wav,Dionne Warwick,90.0,0
+/home/karnito/Coding/Demdect/nodementia/nodementia/Bernie Sanders/BernieSanders_3.wav,Bernie Sanders,90.0,0
+/home/karnito/Coding/Demdect/nodementia/nodementia/Nick Nolte/NickNolte_1.wav,Nick Nolte,60.0,0
+/home/karnito/Coding/Demdect/nodementia/nodementia/Nick Nolte/NickNolte_3.wav,Nick Nolte,90.0,0
+/home/karnito/Coding/Demdect/nodementia/nodementia/Nick Nolte/NickNolte_2.wav,Nick Nolte,90.0,0
+/home/karnito/Coding/Demdect/nodementia/nodementia/Joe Pesci/JoePesci_3.wav,Joe Pesci,46.0,0
+/home/karnito/Coding/Demdect/nodementia/nodementia/Joe Pesci/JoePesci_1.wav,Joe Pesci,27.0,0
+/home/karnito/Coding/Demdect/nodementia/nodementia/Joe Pesci/JoePesci_2.wav,Joe Pesci,69.0,0
+/home/karnito/Coding/Demdect/nodementia/nodementia/Harry Belafonte/HarryBelafonte_3.wav,Harry Belafonte,65.0,0
+/home/karnito/Coding/Demdect/nodementia/nodementia/Harry Belafonte/HarryBelafonte_1.wav,Harry Belafonte,90.0,0
+/home/karnito/Coding/Demdect/nodementia/nodementia/Harry Belafonte/HarryBelafonte_2.wav,Harry Belafonte,68.0,0
+/home/karnito/Coding/Demdect/nodementia/nodementia/Line Renaud/LineRenaud_1.wav,Line Renaud,31.0,0
+/home/karnito/Coding/Demdect/nodementia/nodementia/Line Renaud/LineRenaud_3.wav,Line Renaud,25.0,0
+/home/karnito/Coding/Demdect/nodementia/nodementia/Roger Waters/RogerWaters_3.wav,Roger Waters,52.0,0
+/home/karnito/Coding/Demdect/nodementia/nodementia/Roger Waters/RogerWaters_2.wav,Roger Waters,65.9,0
+/home/karnito/Coding/Demdect/nodementia/nodementia/Mel brooks/Mel brooks_3.wav,Mel brooks,25.0,0
+/home/karnito/Coding/Demdect/nodementia/nodementia/Mel brooks/Mel brooks_1.wav,Mel brooks,35.0,0
+/home/karnito/Coding/Demdect/nodementia/nodementia/Mel brooks/Mel brooks_2.wav,Mel brooks,90.0,0
+/home/karnito/Coding/Demdect/nodementia/nodementia/Raquel Welch/RaquelWelch_3.wav,Raquel Welch,28.0,0
+/home/karnito/Coding/Demdect/nodementia/nodementia/Raquel Welch/RaquelWelch_2.wav,Raquel Welch,28.0,0
+/home/karnito/Coding/Demdect/nodementia/nodementia/Warren Beatty/WarrenBeatty_3.wav,Warren Beatty,22.0,0
+/home/karnito/Coding/Demdect/nodementia/nodementia/Judi Dench/Judi Dench_2.wav,Judi Dench,90.0,0
+/home/karnito/Coding/Demdect/nodementia/nodementia/Judi Dench/Judi Dench_3.wav,Judi Dench,90.0,0
+/home/karnito/Coding/Demdect/nodementia/nodementia/Paul Verhoeven/PaulVerhoeven_1.wav,Paul Verhoeven,90.0,0
+/home/karnito/Coding/Demdect/nodementia/nodementia/Paul Verhoeven/PaulVerhoeven_3.wav,Paul Verhoeven,90.0,0
+/home/karnito/Coding/Demdect/nodementia/nodementia/Warren Buffett/Warren Buffett_1.wav,Warren Buffett,30.0,0
+/home/karnito/Coding/Demdect/nodementia/nodementia/Warren Buffett/Warren Buffett_2.wav,Warren Buffett,56.0,0
+/home/karnito/Coding/Demdect/nodementia/nodementia/Warren Buffett/WarrenBuffett_3.wav,Warren Buffett,90.0,0
+/home/karnito/Coding/Demdect/nodementia/nodementia/Bill Wyman/BillWyman_2.wav,Bill Wyman,23.0,0
+/home/karnito/Coding/Demdect/nodementia/nodementia/Bill Wyman/BillWyman_1.wav,Bill Wyman,26.0,0
+/home/karnito/Coding/Demdect/nodementia/nodementia/Bill Wyman/BillWyman_3.wav,Bill Wyman,54.0,0
+/home/karnito/Coding/Demdect/nodementia/nodementia/Yoko Ono/YokoOno_3.wav,Yoko Ono,29.0,0
+/home/karnito/Coding/Demdect/nodementia/nodementia/Yoko Ono/YokoOno_2.wav,Yoko Ono,23.0,0
+/home/karnito/Coding/Demdect/nodementia/nodementia/Yoko Ono/YokoOno_1.wav,Yoko Ono,30.899977324263038,0
+/home/karnito/Coding/Demdect/nodementia/nodementia/Stan Lee/Stan Lee_1.wav,Stan Lee,90.0,0
+/home/karnito/Coding/Demdect/nodementia/nodementia/Stan Lee/Stan Lee_3.wav,Stan Lee,90.0,0
+/home/karnito/Coding/Demdect/nodementia/nodementia/Stan Lee/Stan Lee_2.wav,Stan Lee,86.0,0
+/home/karnito/Coding/Demdect/nodementia/nodementia/Mireille Darc/MireilleDarc_3.wav,Mireille Darc,56.0,0
+/home/karnito/Coding/Demdect/nodementia/nodementia/Mireille Darc/MireilleDarc_2.wav,Mireille Darc,20.0,0
+/home/karnito/Coding/Demdect/nodementia/nodementia/Kirk Douglas/Kirk Douglas_3.wav,Kirk Douglas,30.0,0
+/home/karnito/Coding/Demdect/nodementia/nodementia/Kirk Douglas/Kirk Douglas_2.wav,Kirk Douglas,71.0,0
+/home/karnito/Coding/Demdect/nodementia/nodementia/Kirk Douglas/Kirk Douglas_1.wav,Kirk Douglas,61.0,0
+/home/karnito/Coding/Demdect/nodementia/nodementia/Barry Levinson/BarryLevinson_1.wav,Barry Levinson,45.0,0
+/home/karnito/Coding/Demdect/nodementia/nodementia/Barry Levinson/BarryLevinson_2.wav,Barry Levinson,56.0,0
+/home/karnito/Coding/Demdect/nodementia/nodementia/Barry Levinson/BarryLevinson_3.wav,Barry Levinson,90.0,0
+/home/karnito/Coding/Demdect/nodementia/nodementia/Robert Wagner/RobertWagner_2.wav,Robert Wagner,10.0,0
+/home/karnito/Coding/Demdect/nodementia/nodementia/Patrick Stewart/Patrick Stewart_2.wav,Patrick Stewart,67.0,0
+/home/karnito/Coding/Demdect/nodementia/nodementia/Patrick Stewart/Patrick Stewart_1.wav,Patrick Stewart,90.0,0
+/home/karnito/Coding/Demdect/nodementia/nodementia/Patrick Stewart/Patrick Stewart_3.wav,Patrick Stewart,90.1,0
+/home/karnito/Coding/Demdect/nodementia/nodementia/Paul Sorvino/PaulSorvino_3.wav,Paul Sorvino,29.0,0
+/home/karnito/Coding/Demdect/nodementia/nodementia/Paul Sorvino/PaulSorvino_2.wav,Paul Sorvino,32.0,0
+/home/karnito/Coding/Demdect/nodementia/nodementia/Kenny Rogers/KennyRogers_3.wav,Kenny Rogers,90.0,0
+/home/karnito/Coding/Demdect/nodementia/nodementia/Kenny Rogers/KennyRogers_1.wav,Kenny Rogers,24.0,0
+/home/karnito/Coding/Demdect/nodementia/nodementia/Terry Riley/TerryRiley_3.wav,Terry Riley,83.0,0
+/home/karnito/Coding/Demdect/nodementia/nodementia/Terry Riley/TerryRiley_2.wav,Terry Riley,90.0,0

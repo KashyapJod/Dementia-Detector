@@ -1,0 +1,47 @@
+optimizer:
+  type: adamw
+  lr: 5e-5
+  weight_decay: 0.01
+  beta1: 0.9
+  beta2: 0.999
+
+scheduler:
+  type: cosine
+  warmup_steps: 10
+  max_steps: 200
+
+training:
+  max_epochs: 1
+  batch_size: 1
+  gradient_clip_val: 1.0
+  accumulate_grad_batches: 1
+  precision: 32
+
+  # Early stopping
+  early_stopping:
+    monitor: train_loss
+    mode: min
+    patience: 1
+    min_delta: 0.0
+
+  # Checkpointing
+  checkpointing:
+    dirpath: checkpoints
+    monitor: train_loss
+    mode: min
+    save_top_k: 1
+    save_last: true
+
+evaluation:
+  metrics:
+    - accuracy
+    - f1
+
+  subject_aggregation: majority_vote
+  cv_folds: 2
+  cv_strategy: subject
+
+explain:
+  method: integrated_gradients
+  num_background_samples: 10
+  num_feature_samples: 100

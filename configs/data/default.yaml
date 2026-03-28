@@ -1,0 +1,20 @@
+paths:
+  dementia: ${data_dir}/dementia
+  nodementia: ${data_dir}/nodementia
+  manifest: ${data_dir}/data/manifest.csv
+  splits: ${data_dir}/data/splits.json
+
+splits:
+  train_ratio: 0.7
+  val_ratio: 0.15
+  test_ratio: 0.15
+  subject_level: true
+  stratify: true
+  random_state: ${seed}
+
+preprocessing:
+  sample_rate: 16000
+  max_duration: 10.0
+  min_duration: 1.0
+  normalize_audio: true
+  trim_silence: true

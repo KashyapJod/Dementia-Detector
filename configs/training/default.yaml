@@ -1,0 +1,54 @@
+optimizer:
+  type: adamw
+  lr: 1e-4
+  weight_decay: 0.01
+  beta1: 0.9
+  beta2: 0.999
+
+scheduler:
+  type: cosine
+  warmup_steps: 500
+  max_steps: 10000
+
+training:
+  max_epochs: 2
+  batch_size: 2
+  gradient_clip_val: 1.0
+  accumulate_grad_batches: 2
+  precision: 16  # Use mixed precision
+  
+  # Early stopping
+  early_stopping:
+    monitor: train_loss
+    mode: min
+    patience: 10
+    min_delta: 0.001
+    
+  # Checkpointing
+  checkpointing:
+    dirpath: checkpoints
+    monitor: train_loss
+    mode: min
+    save_top_k: 3
+    save_last: true
+    
+evaluation:
+  metrics: 
+    - accuracy
+    - balanced_accuracy
+    - f1
+    - auroc
+    - confusion_matrix
+  
+  # Subject-level aggregation
+  subject_aggregation: majority_vote  # [majority_vote, mean_prob]
+  
+  # Cross-validation
+  cv_folds: 5
+  cv_strategy: subject  # Split by subject
+  
+# Explainability
+explain:
+  method: integrated_gradients  # [shap, integrated_gradients]
+  num_background_samples: 100
+  num_feature_samples: 1000

@@ -1,0 +1,48 @@
+# Python caches and bytecode
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Build and packaging
+build/
+dist/
+*.egg-info/
+
+# IDE/editor
+.vscode/
+.idea/
+
+# Hydra and experiment outputs
+.hydra/
+lightning_logs/
+wandb/
+checkpoints/
+results/
+explain_output/
+
+# Local datasets and generated features (keep out of Git due size/privacy)
+dementia/
+nodementia/
+data/features/
+
+# OS and temp files
+.DS_Store
+Thumbs.db
+*.tmp
+
+# Large local installers/binaries
+*.exe
+*.msi
+*.zip
+*.7z
+
+# Logs and ad-hoc outputs
+*.log
+output.txt

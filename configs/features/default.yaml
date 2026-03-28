@@ -1,0 +1,47 @@
+acoustic:
+  # Spectrogram features
+  n_mels: 80
+  n_mfcc: 40
+  hop_length: 160  # 10ms at 16kHz
+  win_length: 400  # 25ms at 16kHz
+  f_min: 0
+  f_max: 8000
+
+  # Prosodic features
+  compute_pitch: true
+  compute_energy: true
+  compute_formants: true
+  compute_voice_stats: true  # jitter, shimmer
+  
+text:
+  # Whisper ASR config
+  whisper_model: "base"
+  language: "en"
+  
+  # SBERT config
+  sbert_model: "all-MiniLM-L6-v2"
+  
+  # Linguistic features
+  compute_lexical_diversity: true
+  compute_pos_ratios: true
+  compute_pause_stats: true
+  compute_speech_rate: true
+  
+cache:
+  use_cache: true
+  cache_dir: ${data_dir}/data/features
+  
+augmentation:
+  spec_augment:
+    enabled: true
+    freq_mask_param: 30
+    time_mask_param: 100
+    num_masks: 2
+  
+  noise:
+    enabled: true
+    snr_range: [5, 20]
+    
+  pitch_shift:
+    enabled: true
+    shift_range: [-2, 2]
