@@ -361,9 +361,17 @@ def analyze_model(
     # Load model from checkpoint
     print(f"[EXPLAIN] Loading model from: {checkpoint_path}")
     checkpoint = torch.load(checkpoint_path, map_location='cpu', weights_only=False)
-    
+
     model = DementiaDetectionModule(cfg)
-    model.load_state_dict(checkpoint['state_dict'])
+    if isinstance(checkpoint, dict) and 'state_dict' in checkpoint:
+        state_dict = checkpoint['state_dict']
+    elif isinstance(checkpoint, dict):
+        # Some checkpoints may store the raw state_dict directly.
+        state_dict = checkpoint
+    else:
+        raise ValueError(f"Unsupported checkpoint format: {type(checkpoint)}")
+
+    model.load_state_dict(state_dict)
     model.eval()
     print("[EXPLAIN] Model loaded successfully")
     
@@ -499,12 +507,18 @@ def main(cfg: DictConfig) -> None:
     # Get checkpoint path from command line or use latest
     checkpoint_path = None
     num_samples = 10
+    output_dir = 'explain_output'
     
     for arg in sys.argv[1:]:
         if 'checkpoint_path=' in arg:
             checkpoint_path = arg.split('=')[1]
+        elif 'model_checkpoint=' in arg:
+            # Accept alias used in some notebooks/commands.
+            checkpoint_path = arg.split('=')[1]
         elif 'num_samples=' in arg:
             num_samples = int(arg.split('=')[1])
+        elif 'output_dir=' in arg:
+            output_dir = arg.split('=')[1]
     
     # Find latest checkpoint if not specified
     if checkpoint_path is None:
@@ -522,6 +536,12 @@ def main(cfg: DictConfig) -> None:
             print("[EXPLAIN] ERROR: checkpoints/ directory not found")
             print("[EXPLAIN] Please train a model first or specify checkpoint_path=<path>")
             sys.exit(1)
+
+    checkpoint_path = str(Path(checkpoint_path).expanduser())
+    if not Path(checkpoint_path).exists():
+        print(f"[EXPLAIN] ERROR: Checkpoint not found: {checkpoint_path}")
+        print("[EXPLAIN] Please verify the path or use a file inside checkpoints/")
+        sys.exit(1)
     
     # Run analysis
     try:
@@ -529,7 +549,7 @@ def main(cfg: DictConfig) -> None:
             cfg,
             checkpoint_path=checkpoint_path,
             num_samples=num_samples,
-            output_dir='explain_output'
+            output_dir=output_dir
         )
     except Exception as e:
         print(f"\n[EXPLAIN] ERROR: {e}")
