@@ -81,48 +81,53 @@ Recommended order:
 
 ## Google Colab Instructions
 
-Use these steps to run this project in Google Colab (no Google Drive directory needed).
+Use these steps to run this project in Google Colab using your Google Drive BioPro folder.
 
-1. Open Colab and clone the repository:
+Drive folder link:
 
-```python
-!git clone https://github.com/KashyapJod/Dementia-Detector.git
-%cd Dementia-Detector
-!git lfs install
-!git lfs pull
-```
+- https://drive.google.com/drive/folders/1EdOfb7WdriQ7HYsQDTgr0NIbhKDMMNdj?usp=sharing
 
-2. Install dependencies (CPU runtime):
+1. Open the Drive link and add a shortcut to your My Drive as `BioPro`.
+
+2. Open Colab and install dependencies:
 
 ```python
 !pip install -U pip
 !pip install -r requirements.txt
 ```
 
-3. (Optional) If you have GPU runtime enabled in Colab:
+3. Mount Google Drive and switch to your BioPro folder:
+
+```python
+from google.colab import drive
+drive.mount('/content/drive')
+%cd /content/drive/MyDrive/BioPro
+```
+
+4. (Optional) If you have GPU runtime enabled in Colab:
 
 ```python
 import torch
 print("CUDA available:", torch.cuda.is_available())
 ```
 
-4. Place dataset folders and metadata in the project root:
+5. Confirm dataset layout in that folder:
 
 ```text
-Dementia-Detector/
+BioPro/
   dementia/
   nodementia/
   data/manifest.csv
   data/splits.json
 ```
 
-5. Run fastest training preset:
+6. Run fastest training preset (optional):
 
 ```python
 !python train.py training=fastest data=fastest wandb.enabled=false
 ```
 
-6. Run explainability using your uploaded checkpoint (example uses `last-v1.ckpt`):
+7. Run explainability using your uploaded checkpoint (example uses `last-v1.ckpt`):
 
 ```python
 !python explain.py checkpoint_path=checkpoints/last-v1.ckpt num_samples=10
