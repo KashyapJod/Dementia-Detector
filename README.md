@@ -2,6 +2,8 @@
 
 Multimodal dementia detection from speech using acoustic and linguistic features.
 
+GitHub repository: https://github.com/KashyapJod/Dementia-Detector
+
 ## What Is Included In Git
 
 This repository is configured to upload code and configs only. Large and private artifacts are ignored by default:
@@ -79,13 +81,15 @@ Recommended order:
 
 ## Google Colab Instructions
 
-Use these steps to run this project in Google Colab.
+Use these steps to run this project in Google Colab (no Google Drive directory needed).
 
 1. Open Colab and clone the repository:
 
 ```python
 !git clone https://github.com/KashyapJod/Dementia-Detector.git
 %cd Dementia-Detector
+!git lfs install
+!git lfs pull
 ```
 
 2. Install dependencies (CPU runtime):
@@ -118,10 +122,10 @@ Dementia-Detector/
 !python train.py training=fastest data=fastest wandb.enabled=false
 ```
 
-6. Run explainability using the latest checkpoint:
+6. Run explainability using your uploaded checkpoint (example uses `last-v1.ckpt`):
 
 ```python
-!python explain.py model_checkpoint=checkpoints/last.ckpt
+!python explain.py checkpoint_path=checkpoints/last-v1.ckpt num_samples=10
 ```
 
 ## Upload To GitHub
